@@ -1,0 +1,15 @@
+{
+    "numer_biletu": "T123456789",
+    "imie_nazwisko_pasażera": "Jan Kowalski",
+    "stacja_odjazdu": "Warszawa Centralna",
+    "stacja_przyjazdu": "Kraków Główny",
+    "godzina_odjazdu": "2024-12-05T10:15:00Z",
+    "numer_miejsca": "B12",
+    "klasa": "Pierwsza klasa",
+    "typ_pociągu": "Szybki",
+    "cena": 120.50,
+    "bilet_powrotny": false,
+    "ważny_na_dzień": "2024-12-05",
+    "możliwość_anulacji": true
+  }
+  

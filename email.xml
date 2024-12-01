@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailContents>
+    <info>
+        <name>Sender</name>
+        <address>sender@site.com</address>
+    </info>
+    <info>
+        <name>Recipient</name>
+        <address>recipient@site.com</address>
+    </info>
+    <info>
+        <name>Subject</name>
+        <contents>Emails subject</contents>
+    </info>
+    <info>
+        <name>Message</name>
+        <contents>Emails Contents</contents>
+    </info>
+</EmailContents>
