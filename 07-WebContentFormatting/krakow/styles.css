@@ -1,0 +1,35 @@
+/* Styl tabeli */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Łączenie granic */
+    margin-top: 20px;
+}
+
+/* Styl nagłówka tabeli */
+th {
+    background-color: darkgreen; /* Tło nagłówka */
+    color: white; /* Kolor tekstu */
+    padding: 10px; /* Wewnętrzny margines */
+    text-align: left; /* Wyrównanie do lewej */
+}
+
+/* Styl komórek tabeli */
+td {
+    padding: 8px; /* Wewnętrzny margines */
+    text-align: left; /* Wyrównanie do lewej */
+    border: 1px solid #ddd; /* Granice komórek */
+}
+
+/* Styl wiersza po najechaniu */
+tr:hover {
+    background-color: #f2f2f2; /* Tło po najechaniu */
+}
+
+/* Szerokość kolumn */
+th:nth-child(1), td:nth-child(1) {
+    width: 25%; /* Szerokość pierwszej kolumny */
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 40%; /* Szerokość czwartej kolumny */
+}

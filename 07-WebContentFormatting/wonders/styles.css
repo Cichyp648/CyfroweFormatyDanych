@@ -1,0 +1,94 @@
+/* Ogólne ustawienia */
+body {
+    font-family: Arial, sans-serif; /* Czcionka */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Kolor tła */
+}
+
+h1 {
+    text-align: center; /* Wyrównanie nagłówka */
+    background-color: #2c3e50; /* Tło nagłówka */
+    color: white; /* Kolor tekstu */
+    padding: 20px;
+}
+
+/* Styl sekcji */
+h2 {
+    background-color: #3498db; /* Tło sekcji */
+    color: white; /* Kolor tekstu */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Stylowanie tabeli */
+table {
+    width: 100%; /* Szerokość tabeli */
+    margin-top: 20px;
+    border-collapse: collapse; /* Usunięcie odstępów między komórkami */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Ramka tabeli */
+    padding: 10px; /* Wewnętrzny odstęp */
+    text-align: left; /* Wyrównanie tekstu w komórkach */
+}
+
+th {
+    background-color: #2c3e50; /* Tło nagłówków tabeli */
+    color: white; /* Kolor tekstu nagłówków */
+}
+
+/* Formularz */
+form div {
+    margin-bottom: 15px; /* Odstęp między polami formularza */
+}
+
+input, select, textarea {
+    width: 100%; /* Szerokość pól formularza */
+    padding: 10px; /* Wewnętrzny odstęp */
+    border: 1px solid #ddd; /* Ramka wokół pól */
+    box-sizing: border-box; /* Uwzględnienie paddingu w szerokości */
+}
+
+input[type="submit"] {
+    background-color: #3498db; /* Kolor tła przycisku */
+    color: white; /* Kolor tekstu przycisku */
+    border: none; /* Brak obramowania */
+    padding: 10px 20px; /* Padding wokół tekstu */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    cursor: pointer; /* Zmieniony kursor na wskazujący */
+}
+
+/* Efekt hover dla przycisku */
+input[type="submit"]:hover {
+    background-color: #2980b9; /* Zmiana tła po najechaniu */
+}
+
+/* Linki */
+a {
+    color: #3498db; /* Kolor linków */
+    text-decoration: none; /* Usunięcie podkreślenia */
+}
+
+a:hover {
+    text-decoration: underline; /* Podkreślenie linków po najechaniu */
+}
+
+/* Ustawienia sekcji */
+section {
+    margin-top: 20px; /* Odstęp między sekcjami */
+}
+
+/* Kolorowanie tekstu w sekcjach */
+#grand-canyon {
+    color: darkgreen; /* Kolor tekstu sekcji Grand Canyon */
+}
+
+#great-barrier-reef {
+    color: blue; /* Kolor tekstu sekcji Great Barrier Reef */
+}
+
+#mount-everest {
+    color: gray; /* Kolor tekstu sekcji Mount Everest */
+}
